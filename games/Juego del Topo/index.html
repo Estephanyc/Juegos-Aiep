@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Juego del Topo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-success body">
+
+  <div class="text-center ">
+    <div class="row">
+      <div class="col-6 mt-2 text-center container ">
+        <div class="grid row content">
+          <div class="square col-4" id="1"></div>
+          <div class="square col-4" id="2"></div>
+          <div class="square col-4" id="3"></div>
+          <div class="square col-4" id="4"></div>
+          <div class="square col-4" id="5"></div>
+          <div class="square col-4" id="6"></div>
+          <div class="square col-4" id="7"></div>
+          <div class="square col-4" id="8"></div>
+          <div class="square col-4" id="9"></div>
+
+        </div>
+
+      </div>
+      <div class="col-6 side">
+        <h1 class="title">El topo</h1>
+        <h2>Su puntuación:</h2>
+        <h2 id="score">0</h2>
+        <h2 id="time-left">60</h2>
+        <img id="game-over" src="./img/gameover.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

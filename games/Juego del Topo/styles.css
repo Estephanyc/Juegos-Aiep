@@ -1,0 +1,66 @@
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+}
+
+.mole {
+	background-image: url("./img/topo.png");
+	background-size: cover;
+    height: 125px;
+	width: 250px;
+}
+
+#time-left {
+	height:100px;
+   width:100px;
+   background:#ffffff;
+   -moz-border-radius:50px;
+   -webkit-border-radius:50px;
+   border-radius:50px;
+   border: 11px solid #eb4343;
+   align-items: center;
+    justify-content: center;
+    height: 100px;
+    display: grid;
+}
+.content {
+	border: 15px solid #efab1e;
+	cursor: url("./img/martillo.jfif"),
+	url("./img/martillo.jfif"),
+	pointer;
+	border-style: dotted;
+}
+
+.container {
+	display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 80px;
+}
+
+.side {padding: 50px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.body {
+	padding: 50px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#game-over {
+	display: none;
+}

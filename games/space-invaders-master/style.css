@@ -1,0 +1,74 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    border: 30px solid #e9e9e9;
+    background-image: url(../space-invaders-master/img/background.png);
+    flex-wrap: wrap;
+    border-radius: 16px;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.invader {
+	background-image: url(../space-invaders-master/img/invader.png);
+	background-size: 40px 40px;
+}
+
+.shooter {
+	background-image: url(../space-invaders-master/img/nave.png);
+	background-size: contain;
+	width: 130px !important;
+    height: 130px !important; 
+
+}
+
+.laser {
+	background-image: url(../space-invaders-master/img/fuego.png);
+	background-size: 40px 40px;
+}
+
+.boom {
+	background-image: url(../space-invaders-master/img/boom.png);
+	background-size: 40px 40px;
+}
+
+body {
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	background-image: url(../space-invaders-master/img/background.png);
+}
+
+.contain {
+	display: flex;
+    justify-content: center;
+
+	margin-top: 50px;
+}
+
+.title {
+	font-size: 30px;
+    color: cadetblue;
+    text-align: center;
+	padding: 20px;
+	text-shadow: 5px 5px #eb3a76;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+
+.results{
+	background: #ffe749;
+    border-radius: 50px;
+    color: #000;
+	font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+}
+
+.side {
+	margin-right: 20px;
+}
