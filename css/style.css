@@ -1062,6 +1062,17 @@
     min-height: 600px;
     background-position: right top;
 }
+.header-top-snack{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    background-color: #fff;
+    border-bottom: 20px solid;
+    border-color: #eb3a76;
+    border-bottom-style: groove;
+    min-height: 600px;
+    background-position: right top;
+}
  .header {
      position: absolute;
      z-index: 999;
@@ -1209,13 +1220,21 @@
      padding:20px 0px;
      font-weight: 400;
 }
+
+.btn-jugar
+{
+    background-color: #f00;
+    border: none;
+    border-radius: 16px;
+    padding: 10px;
+}
  .our .Games a {
-     font-size: 16px;
-     border: #fff solid 1px;
-     background-color: #000;
-     color: #fff;
-     padding: 10px 27px;
-     display: inline-block;
+    font-size: 24px;
+    border-radius: 16px;
+    background-color: #f00;
+    color: #ffffff;
+    padding: 10px 27px;
+    display: inline-block;
 }
  .our .Games a:hover {
      background-color: #ff0000;
@@ -1426,9 +1445,12 @@ color: #f00;
 /** end testimonial **/
 /** footer **/
  .footer {
-     background: #181716;
-     padding-top: 90px;
-     margin-top: 90px;
+    text-align: center;
+    background: #181716;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 90px;
+    padding: 20px;
 }
  .footer h2 {
     color: #fff;

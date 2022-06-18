@@ -1,20 +1,70 @@
 .grid {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
   border-style: solid;
+  border-radius: 25px;
+  background: url(https://1.bp.blogspot.com/-pp70hHIO8SY/YGlLTTj0FNI/AAAAAAAKyGE/xdIAGtO6jc8Fg5uV6eRzd7MKP3vj6LRhwCLcBGAsYHQ/s2048/0_c7c16_445cc016_orig.jpg);
+  background-size: cover;
+  border: 20px solid #96e553;
+  margin: auto;
+
 }
 
 .grid div {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
 }
 
 .snake {
-  background-color: blue;
+  background-color: green;
+  
 }
 
 .apple {
-  background-color: purple;
+  /* background-color: yellow; */
+  border-radius: 65px;
+  background-image: url(./MANZANA.png);
+  background-size:  40px 40px;
+}
+
+body {
+  background-color: #f5c94c;
+}
+
+.container
+{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive; 
+}
+
+.score{
+  padding: 20px;
+}
+
+.btn-jugar {
+  background-color: #0a7649;
+    color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    font-size: 20px;
+    border: none;
+}
+
+.text-bg h1 {
+  color: #ad0208;
+}
+
+.text-bg span {
+
+  color: #3d7f03;
+}
+
+.snake-container{
+  border: 20px solid #ad0208;
+    border-radius: 16px;
+    padding: 10px;
+
 }
